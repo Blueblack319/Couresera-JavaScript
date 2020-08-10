@@ -6,7 +6,16 @@
     <title>JavaScript</title>
   </head>
   <body>
-    <a href="back.html" onclick="alert('Nope'); return false">back</a>
-    <a href="forth.html" onclick="alert('Nope'); return false">forth</a>
+    <a
+      href="#"
+      onclick="document.getElementById('stuff').innerHTML='Back'; return false;"
+      >back</a
+    >
+    <a
+      href="#"
+      onclick="document.getElementById('stuff').innerHTML='Forth'; return false;"
+      >forth</a
+    >
+    <div id="stuff">Stuff</div>
   </body>
 </html>
